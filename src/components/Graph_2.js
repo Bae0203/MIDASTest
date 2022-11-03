@@ -14,7 +14,7 @@ import {
 } from "./GrMapStyle";
 import workData from "./WorkTime.json";
 import goWorkData from "./GoWorktime.json";
-import DoneWorkData from "./DoneWorkTime.json";
+import DoneWorkData from "./DoneWorkTime.json"; //더미 데이터들
 
 const graph_2 = () => {
   let avgGoTime = 0,

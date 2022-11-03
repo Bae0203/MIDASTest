@@ -1,7 +1,7 @@
 import React from "react";
 import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Bar } from "recharts";
 import data from "./WorkTime.json";
-import margin from "./GpMargin.json";
+import margin from "./GpMargin.json"; //더미 데이터들
 import { NavWork, SpanTitle, SpanSubTitle, MainNav } from "./GrMapStyle";
 
 const graph_1 = () => {

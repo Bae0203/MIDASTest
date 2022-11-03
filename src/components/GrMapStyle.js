@@ -1,5 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"; //스타일 컴포넌트 (npm에서 다운 받아야됨)
 
+//빽틱
 export const NavWork = styled.nav`
   padding: 1em;
 `;

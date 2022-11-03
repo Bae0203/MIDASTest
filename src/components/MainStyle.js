@@ -1,5 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"; //스타일 컴포넌트
 
+//빽틱 써야됨!!
 export const BtnNavBox = styled.nav`
   padding: 20px;
 `;
@@ -29,4 +30,3 @@ export const Btn = styled.button`
   border-radius: 15px;
   background-color: #694aa7;
 `;
-

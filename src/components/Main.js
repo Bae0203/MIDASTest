@@ -16,13 +16,13 @@ const Main = () => {
   const BtnCl_2 = () => {
     setPage(2);
     console.log(page);
-  };
+  }; //다른 버튼 누를때 마다 페이지 변환
 
   return (
     <>
       <Body_out>
         <BtnNavBox>
-          {page == 0 ? (
+          {page == 0 ? ( //1번째 페이지, 2번째 페이지, 3번째 페이지 판단 후 값에 맞게 띄움
             <Btn>그래프</Btn>
           ) : (
             <Btn_n onClick={BtnCl_0}>그래프</Btn_n>
